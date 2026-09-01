@@ -216,3 +216,17 @@ a {
     padding: 0 120px;
     color: var(--branco);
 }
+
+/* Acervo - Livros recomendados */
+
+.top-livros {
+    margin-top: 100px;
+}
+.colecao-livros{
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(4,10%);
+    justify-content: center;
+    gap: 5%;
+}
