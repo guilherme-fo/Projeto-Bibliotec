@@ -222,11 +222,119 @@ a {
 .top-livros {
     margin-top: 100px;
 }
-.colecao-livros{
+
+.colecao-livros {
     margin-top: 100px;
 
     display: grid;
-    grid-template-columns: repeat(4,10%);
+    grid-template-columns: repeat(4, 10%);
     justify-content: center;
     gap: 5%;
 }
+
+.livro h3 {
+    width: 160px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.livro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.autor {
+    margin-top: 20px;
+    display: grid;
+    gap: 5px;
+}
+
+.capa {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.capa img {
+    height: 300px;
+}
+
+.colecao-livros {
+    padding-bottom: 100px;
+}
+
+.texto-livro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--azul-escuro);
+    height: 50vh;
+    padding: 100px 120px 50px;
+}
+.geral {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.topicos {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 50% 50%;
+    padding-right: 50px;
+}
+
+.topicos nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topicos nav h4 {
+    color: var(--cor-destaque);
+    margin-bottom: 10px;
+}
+ .logos-redes {
+    display: flex;
+    gap: 30px;
+ }
+
+ footer span {
+    display: flex;
+    border: 1px solid white;
+    margin: 50px 0 30px;
+ }
+
+ .info-extras, .info-mais {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .info-extras {
+    color: white;
+ }
+
+ .info-mais nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
